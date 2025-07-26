@@ -1,0 +1,12 @@
+name: 02-building-block
+
+on: push
+
+jobs:
+    echo:
+        runs-on: ubuntu-latest
+        steps:
+             - name: Show teh trigger
+               run:  echo "i have been tru=iggers by ${{github.event_name}}"
+
+
