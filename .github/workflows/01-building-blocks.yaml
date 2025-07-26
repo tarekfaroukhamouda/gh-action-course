@@ -17,9 +17,4 @@ jobs:
           exit 0
       - name: Say goodbye
         run : echo "GoodBye"
-  run-script:
-    runs-on: ubuntu-latest
-    steps:
-      - name: runScript
-        run: python app.py
 
